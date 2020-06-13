@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+
 import './question.dart';
 import './answer.dart';
+
 void main(){
 runApp(MyApp());
 
@@ -28,7 +30,7 @@ class _MyAppState extends State<MyApp>{
       var quest = [
         {
           "questionText":"what\'s your favourite color?",
-          'answers':['Black','Red','Green','Blue']
+          'answers':['Black','Red','Yellow','Blue']
           },
 
          {
